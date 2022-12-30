@@ -1,0 +1,93 @@
+.blocks p{
+    font-size: 18px;
+}
+
+.blocks span{
+    font-size: 16px;
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    background-color: #FFFBA5;
+    margin: 30px 120px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+#education{
+    padding: 4px 0px 4px 20px;
+    margin-bottom: 30px;
+}
+
+#education ul{
+    list-style: none;
+}
+
+#education ul li{
+    margin-bottom: 15px;
+}
+
+#education ul li:nth-child(2){
+    margin-left: 200px;
+}
+
+#education ul li:nth-child(3){
+    margin-left: 400px;
+}
+
+#fav-city{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 54%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap:30px;
+    margin-top:50px;
+}
+
+#fav-city p{
+    text-align: center;
+}
+
+#fav-city #city{
+    border-radius: 20px;
+}
+
+.square-block{
+    background-color: #BCFFC3;
+    height: 25vh;
+    margin: 0px;
+}
+
+.square-block h3{
+    background-color: #FFFBA5;
+    text-align: center;
+    margin: 0px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 15px;
+}
+
+.gap-block{
+    gap:100px;
+}
+
+.center-block{
+    margin: auto;
+    width: min-content;
+    margin-top: 4vh;
+}
+
+.square-block ol li{
+    white-space: nowrap;
+}

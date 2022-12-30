@@ -1,0 +1,22 @@
+h2{
+    background-color: #E7F3FF;
+    margin: 0px;
+    padding: 4px 0px 4px 20px;
+}
+.name{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+a.menu-href{
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+a.menu-href:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}

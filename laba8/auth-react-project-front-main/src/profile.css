@@ -1,0 +1,27 @@
+.white-color{
+    background-color: white !important;
+}
+.close-button-red{
+    background-color: white!important;
+    color: red !important;
+    border: 0 !important;
+    height: 4.5vh;
+}
+span{
+    font-weight: 800;
+    font-size: 20px;
+}
+.grey-button{
+    background-color: rgb(114, 114, 114) !important;
+}
+.grey-button:hover{
+    color: rgb(114, 114, 114) !important;
+    background-color:white !important;
+    border:1px solid rgb(114, 114, 114) !important;
+}
+button{
+    text-align: center !important;
+}
+.round-photo{
+    border-radius: 50px !important;
+}

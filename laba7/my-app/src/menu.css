@@ -1,0 +1,18 @@
+div.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+}
+a.menu-href{
+    background: black;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+a.menu-href:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,40 @@
+{
+    "fruits": [
+        {
+            "title": "Apple",
+            "id": 1,
+            "image": "apple.jpg",
+            "price": 15
+        },
+        {
+            "title": "Pear",
+            "id": 2,
+            "image": "pear.jpg",
+            "price": 20
+        },
+        {
+            "title": "Grape",
+            "id": 3,
+            "image": "grape.jpg",
+            "price": 25
+        },
+        {
+            "title": "Peach",
+            "id": 4,
+            "image": "peach.jpg",
+            "price": 18
+        },
+        {
+            "title": "Avocado",
+            "id": 5,
+            "image": "avocado.jpg",
+            "price": 40
+        },
+        {
+            "title": "Pomegranate",
+            "id": 6,
+            "image": "pomegranate.jpg",
+            "price": 100
+        }
+    ]
+}

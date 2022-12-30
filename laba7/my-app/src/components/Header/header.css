@@ -1,0 +1,9 @@
+h2{
+    background-color: #E7F3FF;
+    margin: 0px;
+    padding: 4px 0px 4px 20px;
+}
+.name{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gotu&family=Nanum+Myeongjo&display=swap');
+
+body{
+    background-color: rgb(114, 114, 114) !important;
+    font-family: 'Gotu', sans-serif !important;
+}
+.main-block{
+    margin: auto auto;
+    margin-top: 3%;
+}
+.main-block p, .main-block input {
+    font-family: 'Nanum Myeongjo', serif !;
+}
+.grey-button{
+    display: flex !important;
+    margin: 15% auto 0% auto !important;
+    border: 0 !important;
+    background-color: rgb(114, 114, 114);
+    color:white !important;
+    border-radius: 15px !important;
+    padding: 4px 50px !important;
+}
+.grey-button:hover{
+    color: rgb(114, 114, 114);
+    background-color:white;
+    border:1px solid rgb(114, 114, 114);
+}
