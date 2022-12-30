@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+body{
+    font-family: 'Gotu', sans-serif;
+    margin: 0px;
+}
+
+h2{
+    background-color: #E7F3FF;
+    margin: 0px;
+    padding: 4px 0px 4px 20px;
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    background-color: #FFFBA5;
+    margin: 30px 120px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+#education{
+    padding: 4px 0px 4px 20px;
+    margin-bottom: 30px;
+}
+
+#education ul{
+    list-style: none;
+}
+
+#education ul li{
+    margin-bottom: 15px;
+}
+
+#education ul li:nth-child(2){
+    margin-left: 200px;
+}
+
+#education ul li:nth-child(3){
+    margin-left: 400px;
+}
+
+.square-block{
+    background-color: #BCFFC3;
+    height: 25vh;
+    margin: 0px;
+}
+
+.square-block h3{
+    background-color: #FFFBA5;
+    text-align: center;
+    margin: 0px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 15px;
+}
+
+.gap-block{
+    gap:100px;
+}
+
+#fav-city{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 54%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap:30px;
+    margin-top:50px;
+}
+
+#fav-city p{
+    text-align: center;
+}
+
+#fav-city #city{
+    border-radius: 20px;
+}
+#photo-1{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.center-block{
+    margin: auto;
+    width: min-content;
+    margin-top: 4vh;
+}
+
+.square-block ol li{
+    white-space: nowrap;
+}
+
+.blocks p{
+    font-size: 18px;
+}
+
+.blocks span{
+    font-size: 16px;
+}
+
+.button{
+    width: 10%;
+    background-color: #FFFBA5;
+    color:black;
+    margin: 30px 30px;
+    padding: 10px 30px;
+    border:0px;
+    border-radius: 10px;
+    font-size: 80%;
+    font-family: 'Gotu', sans-serif;
+}
+.button:hover{
+    color: #FFFBA5;
+    background-color: black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    font-size: 110%;
+}
+.buttons button{
+    width: fit-content;
+}
+
+.block-image img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gotu&display=swap');
+
+body{
+    font-family: 'Gotu', sans-serif;
+}
+
+h1{
+    font-family: 'Dancing Script';
+    text-align: center;
+}
+#table{
+    margin-bottom: 30px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table, tr, td{
+    border: 1px solid black;
+}
+tr:first-of-type{
+    background-color: #078f8f;
+    color: #2E0025;
+}
+tr:nth-child(2):hover{
+    background-color: #f87070;
+    color: #d1ffda;
+}
+tr:nth-child(2){
+    background-color: #f5f507;
+    color: #001442;
+}
+tr:first-of-type:hover{
+    background-color: #0a0af8;
+    color: #ffebbd;
+}
+
+.position-image, .transform-image{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 45%;
+    height: 40vh;
+    background-color: rgb(245, 245, 245);
+}
+.position-image{
+    position: relative;
+}
+#top-dot{
+    left: calc((100% - 30px)/2);
+    top: 15px;
+}
+#left-dot{
+    top:calc((100% - 30px)/2);
+    left: 15px;
+}
+#right-dot{
+    top:calc((100% - 30px)/2);
+    left:calc((100% - 50px));
+}
+#bottom-dot{
+    left: calc((100% - 30px)/2);
+    top: calc((100% - 50px));
+}
+.dot, .dot-tr{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.dot{
+    position: absolute;
+}
+
+#top-line{
+    position: absolute;
+    width: 10px;
+    height: 50%;
+    left: calc((100% - 10px)/2);
+    top: calc((100% - 78%)/2);
+    background-color: black;
+}
+
+#right-line{
+    position: absolute;
+    height: 10px;
+    width: 40%;
+    left: calc((100% - 23%)/2);
+    bottom: calc((100% - 5%)/2);
+    background-color: black;
+}
+
+#black-dot{
+    left: calc((100% - 25px)/2);
+    top: calc((100% - 25px)/2);
+    position: relative;
+    background-color: black;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+}
+#top-line-dynamic{
+    position: absolute;
+    background: #000;
+    width: 10px;
+    height: 43%;
+    left: calc((100% - 10px)/2);
+    bottom: calc((100% - 8px)/2);
+    transform-origin: 50% 100%;
+    animation: rotate 10s infinite linear;
+}
+
+#right-line-dynamic{
+    position: absolute;
+    background: #000;
+    width: 10px;
+    height: 30%;
+    left: calc((100% - 10px)/2);
+    bottom: calc((100% - 8px)/2);
+    transform-origin: 50% 100%;
+    animation: rotate 20s infinite linear;
+}
+@keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+    }
+}
+
+.grid-block{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 80px;
+}
+
+.transform-image{
+    position: relative;
+}
+
+.dot-tr{
+    position: absolute;
+}
+
+#left-dot-tr{
+    top: 50%;
+    left: 15px;
+    transform: translate(-5%, -50%);
+}
+
+#top-dot-tr{
+    left: 50%;
+    top: 15px;
+    transform: translate(-50%, -5%);
+}
+
+#right-dot-tr{
+    top: 50%;
+    left: calc(100% - 20px);
+    transform: translate(-95%, -50%);
+}
+
+#bottom-dot-tr{
+    top: calc(100% - 20px);
+    left: 50%;
+    transform: translate(-50%, -95%);
+}
+
+#top-line-transform{
+    position: absolute;
+    width: 10px;
+    height: 20vh;
+    background-color: black;
+    left: 49.5%;
+    top: 35%;
+    transform: translate(-35%, -49.5%);
+}
+
+#right-line-transform{
+    position: absolute;
+    height: 10px;
+    width: 9vw;
+    background-color: black;
+    left: 53%;
+    top: 50%;
+    transform: translate(-35%, -50%);
+}
+
+.grid-block-dynamic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gotu&display=swap');
+
+h2{
+    text-align: center;
+}
+p{
+    top: 50%;
+    margin: 0 0;
+    font-size: 200%;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translateY(-50%);
+}
+
+#container{
+    width: 50%;
+    margin: 0 auto 6vh auto;
+}
+#text-blue{
+    height: 10vh;
+    background-color: rgb(112, 167, 223);
+}
+.flex-block{
+    float: left;
+}
+#img-text p, #img-text-flex p{
+   padding-top: 8vh;
+}
+#img-light-green{
+    width: 70%;
+    height: 30vh;
+    background-color: rgb(188, 230, 139);
+}
+#text-dark-green{
+    height: 30vh;
+    background-color: rgb(147, 176, 113);
+}
+#img-violet{
+    height: 20vh;
+    background-color: rgb(250, 192, 246);
+}
+#img-text-flex{
+    display: flex;
+}
+#img-text-flex #text-dark-green{
+    width: 30%;
+}
